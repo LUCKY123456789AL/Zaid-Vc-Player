@@ -11,7 +11,7 @@ if os.path.exists("local.env"):
 load_dotenv()
 admins = {}
 
-SESSION_NAME = getenv("SESSION_NAME")
+SESSION_NAME = getenv("SESSION_NAME","AQBLkkHhOlIJ7el92X32H3JKIFUVLVQT5T2noBB6busYSQDAJS9E6RIJAXfDXWGPYGvmfS9D_mKk_SSNwvDo0I4GOgHO70dDQ4JYauGoCe-4aJmrKfbPGmwmFQ98ItsFEuKL8cGNMaYudlwRLFgtZs-6kz2WhktQuqEFZpWxgYJ69hHRwC6zDZncIVWzD82eoxG_Mq9vK-fvHuimjL7mT_QivBVugkdH4VZr640fqtRiyjYhMhQbzPEy5QZcMVvvJyg3s-Vg8bJu14WygGbHHmKjeeJ_gti04vGdygAA6pQnDN6dwVGBTgZQFa40J9YKwABX4X6r4iD131ICz-m34CyBAAAAAUu9IlMA")
 
 if str(getenv("STRING_SESSION2")).strip() == "":
     SESSION2 = str(None)
@@ -33,23 +33,23 @@ if str(getenv("STRING_SESSION5")).strip() == "":
 else:
     SESSION5 = str(getenv("STRING_SESSION5"))
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-BOT_NAME = getenv("BOT_NAME", "Umk")
+BOT_TOKEN = getenv("BOT_TOKEN", "5740372650:AAEms7wE6IFlhE6kwzvwTUABNK3qEbTnneM")
+BOT_NAME = getenv("BOT_NAME", "Pari_zmsic_bot")
 
-API_ID = int(getenv("API_ID", "8186557"))
-API_HASH = getenv("API_HASH", "efd77b34c69c164ce158037ff5a0d117")
-MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Cloner:Cloner@cluster0.cgc6t.mongodb.net/?retryWrites=true&w=majority")
-OWNER_NAME = getenv("OWNER_NAME", "Zaid")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Timesisnotwaiting")
-ALIVE_NAME = getenv("ALIVE_NAME", "Zaid")
-BOT_USERNAME = getenv("BOT_USERNAME", "Zaid2_Robot")
-OWNER_ID = getenv("OWNER_ID", "1669178360")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Zaid2_Assistant")
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "TheSupportChat")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "TheUpdatesChannel")
+API_ID = int(getenv("API_ID", "23534271"))
+API_HASH = getenv("API_HASH", "be4e91de58529a1b199b6d6515f2005e")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Asifjanu:kgf@$12345@cluster0.zwa3zpy.mongodb.net/?retryWrites=true&w=majority")
+OWNER_NAME = getenv("OWNER_NAME", "࿐ཽ༵ ⋆‌⃝Pi͢͢͢kสcђu༆༒°̥̥̥̥̥̥̥̥̥̥̥̥̥◎✧•๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Ishq_ka_raja_143")
+ALIVE_NAME = getenv("ALIVE_NAME", "࿐ཽ༵ ⋆‌⃝Pi͢͢͢kสcђu༆༒°̥̥̥̥̥̥̥̥̥̥̥̥̥◎✧•๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋๋")
+BOT_USERNAME = getenv("BOT_USERNAME", "Pari_zmsic_bot")
+OWNER_ID = getenv("OWNER_ID", "5565653587")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Mera_jaan_32")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "Ishq_ka_raja_143")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Ishq_ka_raja_143")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("UPDATES_CHANNEL", "HEROKU_API_KEY")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1669178360").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5565653587").split()))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/fc9d87ffd1c6f828eb7fc.png")
 START_PIC = getenv("START_PIC", "https://telegra.ph/file/a414e2cdfeaa7d4414b89.png")
